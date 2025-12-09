@@ -17,11 +17,227 @@
       sizes="16x16"
       href="images/favicon-16x16.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta
       property="og:url"
       content="https://www.community-science-museum.com"
     />
     <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header-home">
+      <a class="logo" href="index.html">Community Science Museum</a>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox"><i class="fa-solid fa-bars"></i> </label>
+      <nav class="nav-home">
+        <a href="exhibition-spaces.html">Exhibition spaces</a>
+        <a href="special-events.html">Special events</a>
+        <a href="visit-us.html">Visit us</a>
+        <a href="get-involved.html">Get involved</a>
+      </nav>
+
+      <a class="visit-button" href="visit-us.html"
+        >Visit us <span class="visit-line-two">For free</span></a
+      >
+    </header>
+    <main>
+      <div class="exhibition-carousel" anchor="exhibition-carousel">
+        <div class="slides">
+          <img src="images/earth-circle.png" alt="Cosmology" />
+          <h2>Cosmology</h2>
+        </div>
+        <div class="slides">
+          <img src="images/institute-circle.png" alt="Biology and medicine" />
+          <h2>Biology and medicine</h2>
+        </div>
+        <div class="slides">
+          <img src="images/dino-circle.png" alt="Evolution" />
+          <h2>Evolution</h2>
+        </div>
+        <div class="slides">
+          <img src="images/ski-rain-circle.png" alt="Ecology" />
+          <h2>Ecology</h2>
+        </div>
+        <div class="slides">
+          <img src="images/ai-circle.png" alt="Robotics and AI" />
+          <h2>Robotics and AI</h2>
+        </div>
+      </div>
+      <a href="exhibition-spaces.html" class="button">Exhibition spaces</a>
+      <div class="exhibition-carousel special-events" anchor="special-events">
+        <div class="slides">
+          <img src="images/night-in-the-museum.png" alt="Night in the museum" />
+          <h2>Night in the Museum</h2>
+        </div>
+        <div class="slides">
+          <img
+            src="images/sun-special-events.png"
+            alt="Energetica exhibition on loan"
+          />
+          <h2>Energetica exhibition on loan</h2>
+        </div>
+        <div class="slides">
+          <img
+            src="images/spaceship-circle.png"
+            alt="Visit Professor of Aerodynamics"
+          />
+          <h2>Visit Professor of Aerodynamics</h2>
+        </div>
+      </div>
+      <a href="special-events.html" class="button bottom-space"
+        >Special events</a
+      >
+      <h2 class="index-header">Explore Together</h2>
+      <section class="explore-together">
+        <p class="long-p">
+          Come join us at the Community Science Museum where we are committed to
+          making science accessible to all.
+        </p>
+        <p class="short-p">
+          Over the course of human history, science has developed from our early
+          understanding of fire, wind, water, and earth to exploring everything
+          from galaxies far away to the very building blocks of life itself.
+        </p>
+        <p class="short-p">
+          The aim of our museum is to create a space where everyone can
+          experience the wonders of our discoveries and perhaps even ignite a
+          lifelong passion to continue the exploration of the world around us.
+        </p>
+        <p class="long-p">
+          We believe science should not be confined to the textbook, but brought
+          to live through exhibits. This is why we have over 1000 different
+          exhibits on the many varied subjects of science to explore. Many of
+          these exhibits are designed for you to interact with and play around
+          to see science come to life, apart from the dinosaur exhibits: they
+          only come to life at night when everyone has gone home.
+        </p>
+      </section>
+      <section class="target-audience">
+        <div class="for-kids">
+          <h3>For kids</h3>
+          <img src="images/vr.jpg" alt="For kids" />
+          <p>
+            Are you a young person looking to learn more about science? Come on
+            down to our museum, there is plenty to see and do.
+          </p>
+          <p>
+            You can learn about Newtonian physics from our bumper swing, or why
+            not travel back in time and meet our resident Woolly Mammoth? Our
+            exhibits are designed to be accessible for interested minds, so make
+            sure you come ready to learn and explore.
+          </p>
+          <p>
+            We also have the Young Stars club which meets once a week on a
+            Saturday between 10:00 and 13:00 where you will get to explore and
+            experiment with our team of experts.
+          </p>
+          <p>
+            During the school holidays we run special holiday clubs where you
+            can join other children your age to go on a journey of discovery.
+            Each holiday we pick a new theme to explore. To find out more about
+            the holiday club and how you can join, send us a message.
+          </p>
+        </div>
+        <div class="for-teachers">
+          <h3>For teachers</h3>
+          <img src="images/teacher.jpg" alt="For teachers" />
+          <p>
+            As a community-driven museum, we want to work with schools to create
+            places of learning and exploring. Our team are on hand to give your
+            students guided tours of the museum, teach them in our learning
+            laboratory, and provide great video presentations that will excite
+            and inspire them.
+          </p>
+          <p>
+            Please get in touch with us here to find out more about our
+            facilities and to arrange a time to bring your students through for
+            a visit.
+          </p>
+        </div>
+        <div class="for-researchers">
+          <h3>For researchers</h3>
+          <img src="images/for-researchers.jpg" alt="For researchers" />
+          <p>
+            Are you looking to get involved with our team of researchers and
+            academics? Our museum offers various ways for you to use our
+            resources and contribute towards them. We have online records,
+            laboratory space, and a working relationship with a number of
+            universities around the country.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="dropdown-menu">
+        <div class="dropdown-item">
+          <input type="checkbox" id="contact-checkbox" />
+          <label for="contact-checkbox" class="footer-drop">Contact</label>
+          <div class="dropdown-content">
+            <p>Do you want to book a guided tour?</p>
+            <p>
+              You are welcome to send us a request for guided tours in our
+              opening hours:
+            </p>
+            <p>Monday: Closed</p>
+            <p>Tuesday to Thursday: 10:00 - 16:00</p>
+            <p>Friday: 10:00 - 19:00</p>
+            <p>Saturday: 09:00 - 16:00</p>
+            <p>Sunday: 09:00 - 13:00</p>
+            <input type="text" name="contact-request" id="contact-request" />
+            <label for="contact-request" class="footer-button">Submit</label>
+          </div>
+        </div>
+        <div class="dropdown-item">
+          <input type="checkbox" id="news-checkbox" />
+          <label for="news-checkbox" class="footer-drop"
+            >Sign up for news</label
+          >
+          <div class="dropdown-content">
+            <p>Stay updated with the latest news from the museum!</p>
+            <p>Please type your email:</p>
+            <input type="email" name="news-email" id="news-email" />
+            <label for="news-email" class="footer-button">Subscribe</label>
+          </div>
+        </div>
+        <div class="dropdown-item">
+          <input type="checkbox" id="language-checkbox" />
+          <label for="language-checkbox" class="footer-drop">Language</label>
+          <div class="dropdown-content">
+            <label for="language">Choose a language:</label>
+            <select name="language" id="select-language">
+              <option value="english">English</option>
+              <option value="norwegian">Norewgian</option>
+              <option value="german">German</option>
+              <option value="french">French</option>
+              <option value="spanish">Spanish</option>
+              <option value="chinese">Chinese</option>
+            </select>
+            <button class="footer-button">Select</button>
+          </div>
+        </div>
+      </div>
+      <div class="social-media">
+        <i
+          class="fa-brands fa-instagram media-items"
+          style="color: #ffffff"
+        ></i>
+        <i
+          class="fa-brands fa-square-facebook media-items"
+          style="color: #ffffff"
+        ></i>
+        <i class="fa-brands fa-tiktok media-items" style="color: #ffffff"></i>
+        <i
+          class="fa-brands fa-square-youtube media-items"
+          style="color: #ffffff"
+        ></i>
+      </div>
+    </footer>
+  </body>
 </html>
