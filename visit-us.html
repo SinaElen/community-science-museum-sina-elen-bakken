@@ -52,7 +52,7 @@
             <label for="location-checkbox" class="footer-drop yellow"
               >Location</label
             >
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <p>You are welcome to visit us at</p>
               <p>Nordbergsvegen 8</p>
               <p>2420 Trysil</p>
@@ -75,7 +75,7 @@
             <label for="open-checkbox" class="footer-drop yellow"
               >Opening hours</label
             >
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <p>Monday: Closed</p>
               <p>Tuesday: 10:00 - 16:00</p>
               <p>Wednesday: 10:00 - 16:00</p>
@@ -90,7 +90,7 @@
             <label for="tour-checkbox" class="footer-drop yellow"
               >Guided tour</label
             >
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <label for="language">Choose a language:</label>
               <p>
                 There are guided tours of the museum that leave every hour.
@@ -101,45 +101,57 @@
                 If you would like to organise a guided tour for your group of 6
                 or more people, please contact us to arrange the tour:
               </p>
-              <select name="day" id="select-day">
-                <option value="tuesday">Tuesday</option>
-                <option value="wednesday">Wednesday</option>
-                <option value="thursday">Thursday</option>
-                <option value="friday">Friday</option>
-                <option value="saturday">Saturday</option>
-                <option value="sunday">Sunday</option>
-              </select>
-              <select name="clock" id="select-clock">
-                <option value="09-10">09:00-10:00</option>
-                <option value="10-11">10:00-11:00</option>
-                <option value="11-12">11:00-12:00</option>
-                <option value="12-13">12:00-13:00</option>
-                <option value="13-14">13:00-14:00</option>
-                <option value="14-15">14:00-15:00</option>
-                <option value="15-16">15:00-16:00</option>
-              </select>
-              <select name="visitors" id="visitors">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-              </select>
+              <div class="tour-choices">
+                <div class="day">
+                  <label for="select-day">Day:</label>
+                  <select name="day" id="select-day">
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                    <option value="sunday">Sunday</option>
+                  </select>
+                </div>
+                <div class="clock">
+                  <label for="select-clock">Clock:</label>
+                  <select name="clock" id="select-clock">
+                    <option value="09-10">09:00-10:00</option>
+                    <option value="10-11">10:00-11:00</option>
+                    <option value="11-12">11:00-12:00</option>
+                    <option value="12-13">12:00-13:00</option>
+                    <option value="13-14">13:00-14:00</option>
+                    <option value="14-15">14:00-15:00</option>
+                    <option value="15-16">15:00-16:00</option>
+                  </select>
+                </div>
+                <div class="visitors">
+                  <label for="visitors">Visitors</label>
+                  <select name="visitors" id="visitors">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                  </select>
+                </div>
+              </div>
+
               <button class="footer-button">Contact</button>
               <p>We will answer within an hour during our opening time</p>
             </div>
@@ -149,7 +161,7 @@
             <label for="accessibility-checkbox" class="footer-drop yellow"
               >Accessibility</label
             >
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <p>
                 The museum has wheelchair accessibility ramps. It also has audio
                 guides and braille display signs for the visually impaired.
@@ -161,7 +173,7 @@
             <label for="food-checkbox" class="footer-drop yellow"
               >Food and drink</label
             >
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <p>
                 There is a café attached to the museum where you can get light
                 lunches, soft drinks, coffee, snacks and more.
@@ -171,7 +183,7 @@
           <div class="visit-item">
             <input type="checkbox" id="shop-checkbox" />
             <label for="shop-checkbox" class="footer-drop yellow">Shop</label>
-            <div class="dropdown-content">
+            <div class="visit-drop-content">
               <p>
                 Our shop offers a range of memorabilia from the museum as well
                 as great gifts and activity packs that allow you to continue to
@@ -231,6 +243,11 @@
           </div>
         </div>
       </div>
+      <div class="footer-links">
+        <a href="under-construction.html">Privacy policy</a>
+        <a href="under-construction.html">Settings for cookies</a>
+      </div>
+      <h3>Follow us:</h3>
       <div class="social-media">
         <i
           class="fa-brands fa-instagram media-items"
