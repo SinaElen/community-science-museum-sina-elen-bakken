@@ -896,7 +896,7 @@ h3 {
 @media (min-width: 900px) {
   .get-involved-main {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
   }
   .support {
     grid-row: 1;
