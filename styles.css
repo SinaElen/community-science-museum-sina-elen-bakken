@@ -126,6 +126,7 @@ body {
     margin-bottom: 2rem;
   }
   .header-home {
+    grid-template-columns: 1fr 1fr 1fr;
     background-position: 30% 45%;
     height: 20rem;
   }
@@ -615,7 +616,7 @@ footer p {
     width: 30%;
   }
   footer {
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
   }
 }
 
@@ -627,7 +628,7 @@ footer p {
   align-items: center;
   position: relative;
   background-image: url(images/banner.jpg);
-  height: 3rem;
+  height: 4rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 30%;
@@ -733,6 +734,7 @@ h3 {
     flex-direction: row;
     background: transparent;
     justify-content: space-between;
+    align-items: center;
     position: static;
     width: 100%;
     grid-column: span 3;
@@ -951,6 +953,7 @@ h3 {
 
 .get-involved-main p {
   color: #fff;
+  font-family: "avant garde", sans-serif;
 }
 
 .support p,
